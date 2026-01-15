@@ -77,6 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
       You are allowed to quote parts of the text to support your answers. If you do, please quote it with double stars(**like this**). Do not use any quotation marks.
       If the answer is not contained in the text, please say "Not enough information to answer the question.".
       Please keep your answers concise and to the point. It should be no longer than 3 sentences. You should not quote different parts of the text at the same time, and dont quote too much text.
+      if there is an exact phrase that matches the question, please highlight that in your answer with double stars(**like this**). NO OTHER QUOTATION MARKS.
 
       PAGE CONTENT:
       ${pageContext}
