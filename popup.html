@@ -10,7 +10,7 @@
       width: 300px;
       height: 500px;
       margin: 0;
-      background: transparent;
+      background: #121212;
       color: white;
 
     }
@@ -23,7 +23,7 @@
       width: 100%;
       height: 100%;
       background: #212121;
-      border-radius: 16px;
+      border-radius: 3px;
       /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); */
       text-align: center;
       padding: 0.2em;
@@ -36,7 +36,7 @@
   <div id="box">
     <script src="popup.js"></script>
 
-    <h1>TLDR Extension Demo</h1>
+    <h1>TLDR Extension</h1>
 
     <div id="questionBox" style="display: none; position: absolute; bottom: 0; width: 100%;">
       <div id="responseBox" style="overflow-y: auto; max-height: 400px; min-height: 300px;">
@@ -46,7 +46,7 @@
         </div> <br> <br>
         Please wait..
       </div>
-      <div class="input-group mb-3">
+      <div class="input-group mb-3" style="max-width: 90%; margin: auto; margin-bottom: 1em;">
         <input type="text" class="form-control" placeholder="Ask for more info.." id="question">
         <button class="btn btn-primary" type="button" id="askBtn" disabled><img src="send.svg" style="width: 20px; height: 20px;"></button>
       </div>
